@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Enviado</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #003366, #0066cc);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .container {
+            margin: 0 10%;
+            animation: fadeIn 1.2s ease-in-out;
+            background-color: rgba(255, 255, 255, 0.05);
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.1em;
+            margin-bottom: 30px;
+        }
+
+        a.button {
+            padding: 12px 28px;
+            background-color: #00ccff;
+            color: #003366;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: background 0.3s ease;
+        }
+
+        a.button:hover {
+            background-color: #00a3cc;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário enviado com sucesso!</h1>
+        <p>Recebemos suas informações e em breve entraremos em contato.</p>
+        <a href="index.html" class="button">Retornar ao site</a>
+    </div>
+</body>
+</html>
